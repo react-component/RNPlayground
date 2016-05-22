@@ -1,0 +1,1 @@
+../../../../AntReactNative/AntReactNative.framework/Headers/RCTAnimationType.h

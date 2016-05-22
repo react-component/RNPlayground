@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D591AC94C24F3DE78FF8F3F /* libPods-RNPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 279EF843BE2AD7A6D070BBBA /* libPods-RNPlayground.a */; };
+		9248E5661CA113BB00A41017 /* react-native-0.21.0.js in Resources */ = {isa = PBXBuildFile; fileRef = 9248E5651CA113BB00A41017 /* react-native-0.21.0.js */; };
+		92CD87411C4DE2F700676C2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD87381C4DE2F700676C2E /* AppDelegate.m */; };
+		92CD87451C4DE2F700676C2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD873E1C4DE2F700676C2E /* main.m */; };
+		92CD87461C4DE2F700676C2E /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD87401C4DE2F700676C2E /* HomeController.m */; };
+		92CD87491C4DE3E000676C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CD87471C4DE30000676C2E /* Assets.xcassets */; };
+		92CD874A1C4DE3FB00676C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CD87391C4DE2F700676C2E /* LaunchScreen.storyboard */; };
+		92CD87541C4DF6F500676C2E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92CD87531C4DF6F500676C2E /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13DC7AD6C4C3ACB08AF0F9BF /* Pods-RNPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNPlayground/Pods-RNPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		279EF843BE2AD7A6D070BBBA /* libPods-RNPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248E5651CA113BB00A41017 /* react-native-0.21.0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "react-native-0.21.0.js"; sourceTree = "<group>"; };
+		92CD871B1C4DE11F00676C2E /* RNPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CD87371C4DE2F700676C2E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92CD87381C4DE2F700676C2E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92CD873A1C4DE2F700676C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92CD873D1C4DE2F700676C2E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		92CD873E1C4DE2F700676C2E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = "<group>"; };
+		92CD873F1C4DE2F700676C2E /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		92CD87401C4DE2F700676C2E /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		92CD87471C4DE30000676C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92CD874F1C4DEDB800676C2E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Sources/PrefixHeader.pch; sourceTree = "<group>"; };
+		92CD87531C4DF6F500676C2E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Resources/Settings.bundle; sourceTree = SOURCE_ROOT; };
+		CAF9A6988629FDE50313B915 /* Pods-RNPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNPlayground/Pods-RNPlayground.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92CD87181C4DE11F00676C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D591AC94C24F3DE78FF8F3F /* libPods-RNPlayground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548F3894973A0450167EEC61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13DC7AD6C4C3ACB08AF0F9BF /* Pods-RNPlayground.debug.xcconfig */,
+				CAF9A6988629FDE50313B915 /* Pods-RNPlayground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EFD440D829687445F0A318B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279EF843BE2AD7A6D070BBBA /* libPods-RNPlayground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92CD87121C4DE11F00676C2E = {
+			isa = PBXGroup;
+			children = (
+				92CD87361C4DE2F700676C2E /* Sources */,
+				92CD87351C4DE27800676C2E /* Resources */,
+				92CD87501C4DEDC500676C2E /* Supporting Files */,
+				92CD871C1C4DE11F00676C2E /* Products */,
+				548F3894973A0450167EEC61 /* Pods */,
+				6EFD440D829687445F0A318B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92CD871C1C4DE11F00676C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92CD871B1C4DE11F00676C2E /* RNPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92CD87351C4DE27800676C2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9248E5651CA113BB00A41017 /* react-native-0.21.0.js */,
+				92CD87471C4DE30000676C2E /* Assets.xcassets */,
+				92CD87531C4DF6F500676C2E /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92CD87361C4DE2F700676C2E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				92CD87371C4DE2F700676C2E /* AppDelegate.h */,
+				92CD87381C4DE2F700676C2E /* AppDelegate.m */,
+				92CD873F1C4DE2F700676C2E /* HomeController.h */,
+				92CD87401C4DE2F700676C2E /* HomeController.m */,
+				92CD87391C4DE2F700676C2E /* LaunchScreen.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		92CD87501C4DEDC500676C2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92CD873D1C4DE2F700676C2E /* Info.plist */,
+				92CD873E1C4DE2F700676C2E /* main.m */,
+				92CD874F1C4DEDB800676C2E /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92CD871A1C4DE11F00676C2E /* RNPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CD87321C4DE11F00676C2E /* Build configuration list for PBXNativeTarget "RNPlayground" */;
+			buildPhases = (
+				BFF5752285BFD009DC16A814 /* 📦 Check Pods Manifest.lock */,
+				92CD87171C4DE11F00676C2E /* Sources */,
+				92CD87181C4DE11F00676C2E /* Frameworks */,
+				92CD87191C4DE11F00676C2E /* Resources */,
+				59B75541E8CA29EE15080EF3 /* 📦 Embed Pods Frameworks */,
+				49CC77ABF05102294CB24F12 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNPlayground;
+			productName = RNPlayground;
+			productReference = 92CD871B1C4DE11F00676C2E /* RNPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92CD87131C4DE11F00676C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MyBank;
+				TargetAttributes = {
+					92CD871A1C4DE11F00676C2E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 83247HA3HQ;
+					};
+				};
+			};
+			buildConfigurationList = 92CD87161C4DE11F00676C2E /* Build configuration list for PBXProject "RNPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92CD87121C4DE11F00676C2E;
+			productRefGroup = 92CD871C1C4DE11F00676C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92CD871A1C4DE11F00676C2E /* RNPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92CD87191C4DE11F00676C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CD874A1C4DE3FB00676C2E /* LaunchScreen.storyboard in Resources */,
+				9248E5661CA113BB00A41017 /* react-native-0.21.0.js in Resources */,
+				92CD87541C4DF6F500676C2E /* Settings.bundle in Resources */,
+				92CD87491C4DE3E000676C2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49CC77ABF05102294CB24F12 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNPlayground/Pods-RNPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B75541E8CA29EE15080EF3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNPlayground/Pods-RNPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF5752285BFD009DC16A814 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92CD87171C4DE11F00676C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CD87461C4DE2F700676C2E /* HomeController.m in Sources */,
+				92CD87451C4DE2F700676C2E /* main.m in Sources */,
+				92CD87411C4DE2F700676C2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92CD87391C4DE2F700676C2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92CD873A1C4DE2F700676C2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92CD87301C4DE11F00676C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92CD87311C4DE11F00676C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92CD87331C4DE11F00676C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DC7AD6C4C3ACB08AF0F9BF /* Pods-RNPlayground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = Sources/PrefixHeader.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.yiminghe.ios.RNPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		92CD87341C4DE11F00676C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF9A6988629FDE50313B915 /* Pods-RNPlayground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = Sources/PrefixHeader.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.yiminghe.ios.RNPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92CD87161C4DE11F00676C2E /* Build configuration list for PBXProject "RNPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CD87301C4DE11F00676C2E /* Debug */,
+				92CD87311C4DE11F00676C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CD87321C4DE11F00676C2E /* Build configuration list for PBXNativeTarget "RNPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CD87331C4DE11F00676C2E /* Debug */,
+				92CD87341C4DE11F00676C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92CD87131C4DE11F00676C2E /* Project object */;
+}
