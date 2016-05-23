@@ -21,4 +21,3 @@ node_modules/
 xcuserdata/
 Pods/**/*.json
 Podfile
-podfile.lock
