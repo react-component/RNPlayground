@@ -8,8 +8,9 @@
 
 #import "HomeController.h"
 #import "QRCodeReaderViewController.h"
+#import "RCTRootView.h"
 
-@interface HomeController () <AntRNRootViewDelegate, UITextFieldDelegate, QRCodeReaderDelegate>
+@interface HomeController () <UITextFieldDelegate, QRCodeReaderDelegate>
 @property UIButton *scanButton;
 @property UIActivityIndicatorView *loadIndicator;
 @property QRCodeReaderViewController *vc;
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"react-native-0.21.0";
+    self.title = @"react-native-0.28.0";
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 280, 80)];
     label.textColor = [UIColor blackColor];
@@ -82,9 +83,6 @@
     
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.scanButton attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1 constant:0]];
     
-    NSURL *bundleURL = [[NSBundle mainBundle] URLForResource:self.title withExtension:@"js"];
-    [AntRNBridgeManager preInitWithBaseBundleURL:bundleURL moduleProvider:nil launchOptions:nil];
-    
     // Create the reader object
     QRCodeReader *reader = [QRCodeReader readerWithMetadataObjectTypes:@[AVMetadataObjectTypeQRCode]];
     
@@ -130,9 +128,17 @@
             [moduleName appendString:part];
         }
         
-        AntRNRootView *rootView = [[AntRNRootView alloc] init];
-        rootView.antRNDelegate = self;
-        [rootView loadRequest:[NSURLRequest requestWithURL:url] moduleName:moduleName];
+        RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:url
+                                                            moduleName:moduleName
+                                                     initialProperties:nil
+                                                         launchOptions:nil];
+        UIViewController *vc = [[UIViewController alloc] init];
+        vc.edgesForExtendedLayout = UIRectEdgeNone;
+        vc.view = rootView;
+        vc.view.frame = [UIScreen mainScreen].bounds;
+        vc.title = @"RN Demo";
+        [self.navigationController pushViewController:vc animated:YES];
+        [self stopLoading];
     }
     @catch (NSException *exception) {
         NSLog(@"Exception:%@", [exception reason]);
@@ -169,24 +175,4 @@
     [self.loadIndicator stopAnimating];    
 }
 
-#pragma mark - AntRNRootViewDelegate
-- (void)antRNRootView:(AntRNRootView *)antRNRootView
-                 call:(NSString *)methodName
-           parameters:(id)parameters
-             callback:(RCTResponseSenderBlock)callback {
-    
-}
-- (void)antRNRootView:(AntRNRootView *)antRNRootView contentDidAppear:(BOOL __unused)_ {
-    UIViewController *vc = [[UIViewController alloc] init];
-    vc.edgesForExtendedLayout = UIRectEdgeNone;
-    vc.view = antRNRootView;
-    vc.view.frame = [UIScreen mainScreen].bounds;
-    vc.title = @"RN Demo";
-    [self.navigationController pushViewController:vc animated:YES];
-    [self stopLoading];
-}
-
-- (void)antRNRootView:(AntRNRootView *)antRNRootView didFailLoadWithError:(NSError *)error {
-    [self stopLoading];
-}
 @end

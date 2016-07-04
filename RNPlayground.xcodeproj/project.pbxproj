@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6D591AC94C24F3DE78FF8F3F /* libPods-RNPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 279EF843BE2AD7A6D070BBBA /* libPods-RNPlayground.a */; };
-		9248E5661CA113BB00A41017 /* react-native-0.21.0.js in Resources */ = {isa = PBXBuildFile; fileRef = 9248E5651CA113BB00A41017 /* react-native-0.21.0.js */; };
 		92CD87411C4DE2F700676C2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD87381C4DE2F700676C2E /* AppDelegate.m */; };
 		92CD87451C4DE2F700676C2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD873E1C4DE2F700676C2E /* main.m */; };
 		92CD87461C4DE2F700676C2E /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CD87401C4DE2F700676C2E /* HomeController.m */; };
@@ -178,7 +177,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				92CD874A1C4DE3FB00676C2E /* LaunchScreen.storyboard in Resources */,
-				9248E5661CA113BB00A41017 /* react-native-0.21.0.js in Resources */,
 				92CD87541C4DF6F500676C2E /* Settings.bundle in Resources */,
 				92CD87491C4DE3E000676C2E /* Assets.xcassets in Resources */,
 			);

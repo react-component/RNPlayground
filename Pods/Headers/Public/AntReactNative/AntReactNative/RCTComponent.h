@@ -1,1 +1,0 @@
-../../../../AntReactNative/AntReactNative.framework/Headers/RCTComponent.h

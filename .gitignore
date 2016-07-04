@@ -19,5 +19,5 @@ node_modules/
 .buildpath
 .settings
 xcuserdata/
-Pods/**/*.json
-Podfile
+Pods
+Podfile.lock
