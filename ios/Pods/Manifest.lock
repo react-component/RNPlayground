@@ -1,0 +1,39 @@
+PODS:
+  - QRCodeReaderViewController (4.0.1)
+  - React/Core (0.28.0)
+  - React/RCTImage (0.28.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.28.0):
+    - React/Core
+  - React/RCTText (0.28.0):
+    - React/Core
+  - React/RCTWebSocket (0.28.0):
+    - React/Core
+
+DEPENDENCIES:
+  - QRCodeReaderViewController (from `https://github.com/yannickl/QRCodeReaderViewController.git`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  QRCodeReaderViewController:
+    :git: https://github.com/yannickl/QRCodeReaderViewController.git
+  React:
+    :path: ../node_modules/react-native
+
+CHECKOUT OPTIONS:
+  QRCodeReaderViewController:
+    :commit: f6d48dcf9885dc85d783d1efece36429cb18f2d0
+    :git: https://github.com/yannickl/QRCodeReaderViewController.git
+
+SPEC CHECKSUMS:
+  QRCodeReaderViewController: 6538745c8f4ffa9407a26bd7f9489ea01739e7b0
+  React: 43544faed4af6a0e8fbc4b3abd26141ed654fa49
+
+PODFILE CHECKSUM: 209a0efbc4704d815da744e88a072369c5a098a8
+
+COCOAPODS: 1.0.0
