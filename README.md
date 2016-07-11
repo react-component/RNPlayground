@@ -4,6 +4,8 @@
 
 ## Usage
 
+open ios/ in xcode and android/ in android studio
+
 input url or scan qrcode of react native bundle
 
 ## Debug In Chrome
