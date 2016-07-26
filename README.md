@@ -1,6 +1,6 @@
 # ReactNative Playground
 
-![react-native](https://img.shields.io/badge/react--native-%3D_0.29.0-green.svg)
+![react-native](https://img.shields.io/badge/react--native-%3D_0.30.0-green.svg)
 
 ## Usage
 
